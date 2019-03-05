@@ -1,0 +1,104 @@
+.tableList{
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-top: 1px solid #bcbcbc;
+    border-left: 1px solid #bcbcbc;
+    word-break:break-all;
+}
+.tableList td,.tableList th{
+    padding: 5px;
+    border-bottom: 1px solid #bcbcbc;
+    border-right: 1px solid #bcbcbc;
+    word-break: break-all;
+}
+.tableList td td{
+    padding: 5px;
+    border: none !important;
+}
+.listComponents{clear: both;list-style: none;}
+.titleProperties{clear: both;margin: 0;padding-top: 10px;}
+.listComponents li{margin-right: 10px;}
+.noBorder td{
+    border: none !important;
+}
+#tabs{
+    width: 100%;
+}
+.tableShow td{
+    padding: 10px;
+    word-break: break-all;
+}
+.classInput{
+    width: 85%;
+}
+.textRed{
+    color: red;
+}
+.tableList th{
+    font-weight: bold;
+    text-align: center;
+}
+.break_word{
+    word-break: break-word;
+    width: 150px;
+}
+.success_mess{
+    color: #fff!important;
+    background-color: #337ab7;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.error_mess{
+    color:red!important;
+}
+
+
+a, a:hover{
+    text-decoration: none;
+}
+.add_p a {
+    display: inline-block;
+    background: #226a94;
+    color: white;
+    padding: 10px 20px;
+    /* margin: 10px; */
+}
+.add_p1 {
+    display: inline-block;
+    background: #226a94;
+    color: white;
+    margin: 0;
+    padding: 7px 20px;
+    border: none !important;
+}
+.color_red{
+    color: red;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border: 1px solid #ddd !important;
+}
+
+.add_p2 {
+    display: inline-block;
+    background: #226a94;
+    color: white;
+    padding: 10px 20px;
+    width: auto;
+    /* margin: 10px; */
+}
+#themData{
+    padding: 30px;
+}
+/* div#themData::after {
+    display: block;
+    position: absolute;
+    content: "\f05c";
+    font-family: FontAwesome;
+    right: -11px;
+    top: -14px;
+    font-size: 23px;
+    color: #2d2d2d;
+    z-index: -1;
+} */
